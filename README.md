@@ -1,7 +1,7 @@
 # Comparison Financial Search - Automated Testing
 ## This is the test automation framework based on Selenium-Webdriver, Junit and Maven to create tests easily for Comparison Financial Search.
 
-In this framework we used diferent components resumed above, but below we will explain its functionality:
+In this framework we used different components resumed above, but below we will explain its functionality:
 ```
 1. Selenium webdriver: Selenium is the framework used to automate the actions in the browser and locate elements.
    In this case, we use Chrome as browser and ChromeDriver as driver.
@@ -29,7 +29,7 @@ In this framework we used diferent components resumed above, but below we will e
 
 #### Test Explanation:
 - doComparisonSearch: Run a happy path testing in wich the customer do a comparison search entering all valid values.
-- validateSearchResult: Run a happy path testing in wich the customer validate if the search result corredonds to the input data.
+- validateSearchResult: Run a happy path testing in wich the customer validate if the search result corresponds to the input data.
 - doComparisonSearchWithAmountInBlank: Run a negative test case in wich the customer do a comparison search leaving in blank the amount field.
 ## 
 
